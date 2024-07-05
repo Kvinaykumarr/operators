@@ -1,4 +1,4 @@
-package scanner.java;
+package MYMart.java;
 
 import java.util.Scanner;
 

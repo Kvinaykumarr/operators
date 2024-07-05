@@ -12,7 +12,7 @@ public class myMart
        String name = scanner.next();
 
        System.out.println("  enter your contactno ");
-       int contactno = scanner.nextInt();
+      // int contactno = scanner.nextInt();
 
        System.out.println("select 1 for menu");
        scanner.next();
@@ -461,7 +461,7 @@ public class myMart
                        System.out.println("-----------------------------------------------------------------------------------");
                        System.out.println("-                     customer name:"+name                                          );
                        System.out.println("-                     your total bill is :"+totalprice                               );
-                       System.out.println("----------------------THANK U FOR VISITING--------------------------------------");;
+                       System.out.println("----------------------THANK U FOR VISITING--------------------------------------");
                    }
                    if (kg == 2) {
                        totalprice = maydhaprice * 2;
